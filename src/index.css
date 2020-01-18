@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.myButton {
+  display: block;
+  margin: 0 auto;
+  font-size: 200px;
+  border-radius: 50%;
+  border: 5px solid blue;
+  padding: 50px;
+}
+
+.app-name {
+  text-align: center;
+  padding-top: 50px;
+  color: #fff;
+  height: 150px;
+  margin-bottom: 50px;
+  background: radial-gradient(
+    circle,
+    rgba(2,0,36,1) 0%,
+    rgba(9,9,121,1) 35%,
+    rgba(0,212,255,1) 
+    100%);
+}
+
+.input-bar {
+  margin-left: 100px;
+  padding: 10px;
+  font-size: 2em;
+  border: 10px solid gold;
+  border-radius: 20%;
+  margin-bottom: 100px;
+}
+
+.input-button {
+  margin-left: 20px;
+  padding: 5px;
+  font-size: 2em;
+  color: beige;
+  background-color: blue;
+  border: 10px solid blue;
+  border-radius: 20%;
+}
