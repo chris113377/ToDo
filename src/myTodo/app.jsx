@@ -7,10 +7,10 @@ class App extends Component {
   state = {  }
   render() { 
     return ( 
-      <div>
+      <React.Fragment>
         <h1 className="app-name">My To-Do List</h1>
         <List />
-      </div>
+      </React.Fragment>
      );
   }
 }
